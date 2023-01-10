@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <title>Login usuário</title>
+</head>
+<body>
+  <img src="./logo.svg" alt="" id="arnia">
+  
+  <div class="main">
+     <h2>
+      O <img src="./arnia-task.png" alt="" id="arnia-task"> 
+       reúne todas as suas tarefas, colegas de equipe e ferramentas
+       <span>Mantenha tudo no mesmo lugar, mesmo que sua equipe não esteja.</span>
+    </h2> 
+
+    <body>
+
+      <div class='container'>
+        <div class='card'>
+          <h1> Entrar </h1>
+          
+          <div id='msgError'></div>
+          
+          <div class='label-float'>
+            <input type='text' id='usuario' placeholder='' >
+            <label id='userLabel' for='usuario'>Usuario</label>
+          </div>
+          
+          <div class='label-float'>
+            <input type='password' id='senha' placeholder='' >
+            <label id='senhaLabel' for='senha'>Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          
+          <div class='justify-center'>
+            <button type="button" onclick='entrar()'>Entrar</button>
+          </div>
+          
+          <div class='justify-center'>
+            <hr>
+          </div>
+          
+          <p> Não tem uma conta?
+            <a href='../cadastrar_usuario/index.html'> Cadastre-se </a>
+          </p>
+          
+        </div>
+        </div>
+</body>
+</html>
