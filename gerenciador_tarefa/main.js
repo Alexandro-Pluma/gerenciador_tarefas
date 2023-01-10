@@ -175,7 +175,7 @@ const updateQuestion = async (id, post) => {
 }
 
 const deleteTask = async () => {
-    await fetch(`https://serverjson.herokuapp.com//${valueTemp}`, {
+    await fetch(`https://serverjson.herokuapp.com/${valueTemp}`, {
         method: "DELETE"
     })
     getPosts()
