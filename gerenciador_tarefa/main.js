@@ -178,6 +178,7 @@ const deleteTask = async () => {
     await fetch(`https://serverjson.herokuapp.com/posts/${valueTemp}`, {
         method: "DELETE"
     })
+     window.location.reload();
     getPosts()
 
 }
