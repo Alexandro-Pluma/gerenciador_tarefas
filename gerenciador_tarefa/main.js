@@ -86,7 +86,9 @@ const saveTask = async (post) => {
     btnClose.onclick = () => {
         button.classList.remove("open")
     }
+    window.location.reload();
     getPosts()
+    
 }
 
 const getTask = async (id) => {
@@ -99,6 +101,7 @@ const getPosts = async () => {
     const apiResponse = await fetch("https://serverjson.herokuapp.com/posts")
     const posts = await apiResponse.json()
     const task = document.querySelector("#task-body")
+    task.innerHTML = ''
     posts.forEach((posts) => {
         task.innerHTML = task.innerHTML + `
         <tr>
