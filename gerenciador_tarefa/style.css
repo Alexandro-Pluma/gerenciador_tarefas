@@ -38,6 +38,8 @@ body {
 
 #sair {
     position: absolute;
+    top: 0;
+    left: 0;
     height: fit-content;
     padding: 1rem;
     border: var(--bor-colOne);
