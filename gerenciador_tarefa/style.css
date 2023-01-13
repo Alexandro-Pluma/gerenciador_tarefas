@@ -36,22 +36,22 @@ body {
 
 }
 
-.colOne #sair {
+#sair {
+    position: absolute;
+    height: fit-content;
     padding: 1rem;
     border: var(--bor-colOne);
     background: var(--bg-body);
     border-radius: 1.5rem;
     text-align: center;
-    margin: 1rem;
     color: var(--tt-primary);
     cursor: pointer;
 }
 
-.colOne #sair a {
-    text-decoration: none;
-}
+
 
 .page {
+    position: relative;
     width: min(120rem, 90%);
     padding: 7.5rem;
 }
@@ -132,6 +132,8 @@ th, td {
 
 .sr-only {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 1px;
     height: 1px;
     padding: 0;
