@@ -114,6 +114,7 @@ th, td {
 }
 
 #filter.open {
+    color: #000000;
     visibility: visible;
     transform: translateX(0px);
 }
