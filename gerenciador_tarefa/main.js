@@ -74,8 +74,8 @@ const eddTask = async (id) => {
     document.getElementById("description").value = currentTask.description
     document.getElementById("date").value = currentTask.date
     document.getElementById("status").value = currentTask.status
-    tituloModal.textContent = "Editar tarefa"
     openModal()
+    tituloModal.textContent = "Editar tarefa"
 }
  
 const saveTask = async (post) => {
