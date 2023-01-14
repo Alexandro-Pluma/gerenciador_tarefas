@@ -47,6 +47,7 @@ addTask.onclick = () => {
     document.getElementById("description").value = ''
     document.getElementById("date").value = ''
     document.getElementById("status").value = ''
+    tituloModal.textContent = "Adicionar tarefa"
     button.classList.add("open")
 }
 
