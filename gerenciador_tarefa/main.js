@@ -12,7 +12,6 @@ const btnClose = document.querySelector(".close")
 const btnHover = document.getElementById("to-save")
 const deleteModal = document.querySelector(".modal_delete")
 const tituloModal = document.getElementById("titulo")
-/* const totalTask = document.querySelector("#task-body") */
 let currentTask = null
 let posts = []
 let valueTemp = true
