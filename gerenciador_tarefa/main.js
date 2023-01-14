@@ -16,6 +16,10 @@ let currentTask = null
 let posts = []
 let valueTemp = true
 
+function editTarefa() {
+    tituloModal.textContent = "Editar tarefa"
+}
+
 function atribuiValor() {
     const inputs = document.querySelector("#number").value
     const input = document.querySelector("#description").value
@@ -73,7 +77,7 @@ const eddTask = async (id) => {
     document.getElementById("description").value = currentTask.description
     document.getElementById("date").value = currentTask.date
     document.getElementById("status").value = currentTask.status
-    document.getElementById("titulo").innerHTML = "Editar tarefa"
+    editTarefa()
     openModal()
     
 }
