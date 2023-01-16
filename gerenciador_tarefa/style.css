@@ -484,14 +484,41 @@ input:valid, select:valid {
 
 
 @media screen and (max-width: 650px) {
-
-    .page {
-        padding: 5rem;
+	    .page {
+        padding: 1rem;
     }
 
- thead   th  {
-        width: 10rem;
+    th, td {
+        padding: .5rem;
     }
+
+    .colOne {
+        display: none;
+    }
+
+
+    .selection {
+        width: 32.2rem;
+    }
+
+    .overflow {
+        overflow-y: clip;
+        max-height: 42rem;
+        width: min(70rem, 90%);
+    }
+
+
+    #sair {
+        height: fit-content;
+        padding: 1rem;
+        border: var(--bor-colOne);
+        background: var(--bg-body);
+        border-radius: 1.5rem;
+        text-align: center;
+        color: var(--tt-primary);
+        cursor: pointer;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
