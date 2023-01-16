@@ -487,6 +487,10 @@ input:valid, select:valid {
 	    .page {
         padding: 1rem;
     }
+     
+    header {
+	margin-top: 5rem;
+    }
 
     th, td {
         padding: .5rem;
@@ -509,6 +513,7 @@ input:valid, select:valid {
 
 
     #sair {
+	width: 4rem;
         height: fit-content;
         padding: 1rem;
         border: var(--bor-colOne);
