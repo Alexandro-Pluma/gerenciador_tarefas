@@ -510,10 +510,12 @@ input:valid, select:valid {
         max-height: 42rem;
         width: min(70rem, 90%);
     }
-
+	
+    #sair img {
+       width: 4rem;
+    }
 
     #sair {
-	width: 4rem;
         height: fit-content;
         padding: 1rem;
         border: var(--bor-colOne);
