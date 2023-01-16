@@ -211,7 +211,7 @@ th, td {
 } 
 
 .selection {
-    min-width: 66rem;
+    width: 66rem;
     padding: 4.8rem;
     background: #FFFFFF;
     box-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25);
@@ -503,10 +503,6 @@ input:valid, select:valid {
 
     .selection {
         width: 32.2rem;
-    }
-	
-    .main {
-       width: 32.2rem;  
     }
 
     .overflow {
