@@ -504,6 +504,10 @@ input:valid, select:valid {
     .selection {
         width: 32.2rem;
     }
+	
+    .main {
+       width: 32.2rem;  
+    }
 
     .overflow {
         overflow-y: clip;
